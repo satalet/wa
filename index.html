@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الباسم سات | تواصل معنا عبر واتساب</title>
 
-  <!-- وسوم المعاينة لفيسبوك -->
+  <!-- وسوم المعاينة لفيسبوك (بدون ميتا ريفريش حتى ما يعترض الروبوت) -->
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://satalet.github.io/wa/">
   <meta property="og:title" content="تواصل معنا عبر واتساب | الباسم سات">
   <meta property="og:description" content="اضغط هنا للتواصل والاستفسار المباشر عبر واتساب">
   <meta property="og:image" content="https://satalet.github.io/wa/banner.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
-  <!-- تحويل تلقائي فوري لرقمك -->
-  <meta http-equiv="refresh" content="0; url=https://wa.me/972534829927">
+  <!-- تحويل الزائر فوراً بالجافاسكريبت -->
+  <script>
+    window.location.replace("https://wa.me/972534829927");
+  </script>
 
   <style>
     body {
@@ -40,21 +43,12 @@
       box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
       display: inline-block;
       margin-top: 20px;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background-color: #1ebe5d;
-      transform: scale(1.05);
     }
   </style>
-
-  <script>
-    window.location.href = "https://wa.me/972534829927";
-  </script>
 </head>
 <body>
   <h2>جاري تحويلك إلى محادثة واتساب...</h2>
-  <p>إذا لم يتم التحويل خلال ثوانٍ، اضغط على الزر:</p>
+  <p>إذا لم يتم التحويل تلقائياً، اضغط بالأسفل:</p>
   <a class="btn" href="https://wa.me/972534829927">مراسلة عبر واتساب</a>
 </body>
 </html>
